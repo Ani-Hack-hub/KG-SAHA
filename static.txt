@@ -1,0 +1,101 @@
+HEADBAR:
+    <section class="headbar">
+        <div class="logo">
+            <div class="kg_saha_logo"></div>
+        </div>
+        <div> 
+            <ul class="menubar">
+                <li class="nav_item"><a href="index.html">HOME</a></li>
+                <li class="nav_item"><a href="templates/amul_pdts/tub.html">AMUL PRODUCTS</a></li>
+                <li class="nav_item"><a href="">GOLDEN DELIGHTS PRODUCTS</a></li>
+                <li class="nav_item"><a href="">CASHEW NUTS</a></li>
+                <li class="nav_item"><a href="">CONTACT</a></li>
+                <li class="nav_item"><a href="">ABOUT</a></li>
+            </ul>
+        </div>
+    </section>
+
+    //CSS
+    * {
+      padding: 0%;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .headbar {
+      background-image: linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc967);
+      background-repeat: no-repeat;
+      margin: 0;
+      height: 5rem;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    body {
+      background-image: linear-gradient(to bottom right, #0b0b0b, #353535);
+      background-repeat: no-repeat;
+    }
+
+    .menubar {
+      display: flex;
+      list-style: none;
+      justify-content: flex-end;
+      display: flex;
+      justify-items: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .nav_item {
+      background-image: linear-gradient(to bottom right, #0b0b0b, #353535);
+      background-repeat: no-repeat;
+      margin-left: 2rem;
+      margin-top: 1rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      text-align: center;
+      border-radius: 100rem;
+    }
+
+    .nav_item:hover {
+      transform: translate(0.1rem, 0.1rem);
+      box-shadow: -0.5rem -0.5rem #0b0b0b;
+    }
+    .logo {
+      margin-left: 6rem;
+      background-color: white;
+      background-image: url("../assets/kg saha logo.png");
+      background-repeat: no-repeat;
+      background-size: 10rem 5rem;
+      width: 10rem;
+      justify-content: flex-start;
+    }
+
+menubar:
+    <section class="menu_option" id="menu_option">
+      <div class="lines">
+        <div class="lines1"></div>
+        <div class="lines2"></div>
+        <div class="lines3"></div>
+      </div>
+      <div class="line" id="line">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul id="list">
+        <li>
+          <a href="tub.html">TUB</a>
+        </li>
+        <li>
+          <a href="cone.html">CONE</a>
+        </li>
+        <li><a href="">
+            CUP
+        </a></li>
+      </ul>
+    </section>
+    
+linear-gradient(#ae8625, #f7ef8a, #d2ac47, #edc967);
